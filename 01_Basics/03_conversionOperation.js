@@ -39,5 +39,36 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 let someNumber = 33
 let stringNumber = String(someNumber);
 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+
+
+//*********************************Operations*********************************
+console.log(1 + 2+ 3);
+
+console.log("1" + 2 + 3);
+console.log(1 + 2 +"3");
+
+console.log(+ true);
+console.log(-"");
+
+// 1 + 2 + 3 = 6
+// "1" + 2 + 3 = 123
+// 1 + "2" + 3 = 123
+// + true = 1
+// +"" = 1
+
+
+// Pre Fix Post Fix
+
+// ++counter 
+// counter++
+
+
+
+
+
+
+
+
