@@ -11,7 +11,7 @@
     const id = Symbol('123');
     const bigInt = 12310n;
     
-    console.log(bigInt)
+    // console.log(bigInt)
 
 // Javascript is staticly typed or dynamic typed language
     /* JavaScript is a dynamically typed language. This means that variable types are determined at runtime,
@@ -39,4 +39,30 @@
     }
 
 
-    
+// ***********************************************Memories***********************************************
+
+
+
+// Stack (Primitive), Heap(Non-Primitive)
+
+let myName = "Shubham";
+
+let anotherName = myName;
+anotherName = "Ayush"
+// console.log("My Name Is ", myName);
+// console.log("Anoter Name Is ", anotherName);
+
+
+let objCar = {
+    name: "Hyndai",
+    model : "Verna"
+}
+
+let objFlight = {
+    name: "SpiceJet",
+    model:"Mini"
+}
+
+objCar = objFlight
+console.log(objCar);
+console.log(objFlight);
